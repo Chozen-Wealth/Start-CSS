@@ -2,6 +2,7 @@
     nav i {
         display: none;
         visibility: hidden;
+        opacity: 0%;
     }
 }
 
@@ -16,6 +17,7 @@
     nav i {
         visibility: hidden;
         display: none;
+        opacity: 0%;
         animation: Disparition 0.3s ease 0s 1 forwards;
     }
     .sectionPortfolio {
@@ -77,14 +79,6 @@
         height: 30px;
     }
 }
-@keyframes Apparition {
-    from {
-        display: none;
-    }
-    to {
-        display: block;
-    }
-}
 
 @keyframes Disparition {
     from {
@@ -95,6 +89,18 @@
         opacity: 0%;
         position: absolute;
     }
+}
+@keyframes glow {
+    0% {
+        filter: drop-shadow(-10px -10px 10px rgb(0, 140, 255));
+    }
+    50% {
+        filter: drop-shadow(10px -10px 10px rgba(255, 11, 11, 1));
+    }
+    100% {
+        filter: drop-shadow(-10px -10px 10px rgb(0, 140, 255));
+    }
+    
 }
 @media (min-width:320px) and (max-width:600px) {
     .navDiv {
@@ -110,7 +116,8 @@
     }
     nav i {
         /* display: block; */
-        animation: Apparition 0.3s ease 0.3s 1 forwards;
+        animation: glow 1s ease 0.4s infinite forwards;
+        /* animation: ; */
     }
     .sectionDiv img {
         width: 200px;

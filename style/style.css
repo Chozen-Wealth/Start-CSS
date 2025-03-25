@@ -47,7 +47,7 @@ nav i {
     cursor: pointer;
     position: absolute;
     right: 10%;
-    transition: 0.5s 0.2s ease;
+    transition: 0.5s 0.3s ease;
     display: block;
 }
 @keyframes Bounce {
