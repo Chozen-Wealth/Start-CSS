@@ -10,7 +10,25 @@ body {
 nav {
     background-color: #2C3E50;
     color: white;
+    display: flex;
+    justify-content: center;
+    height: 80px;
 }
 .navDiv {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 56%;
+}
+.navDiv ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.navDiv ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
 }
