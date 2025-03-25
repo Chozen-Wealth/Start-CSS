@@ -225,6 +225,13 @@ button {
     height: 50px;
     margin-top: 15px;
     cursor: pointer;
+    transition: 0.4s ease;
+}
+button:hover {
+    border: 1px solid #DC3545;
+    background-color: white;
+    color: #DC3545;
+    box-shadow: 0px 0px 10px #dc354650;
 }
 /* SECTION CONTACT FIN */
 /* MAIN FIN */
