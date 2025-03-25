@@ -109,7 +109,7 @@
         height: 650px;
     }
     nav i {
-        display: block;
+        /* display: block; */
         animation: Apparition 0.3s ease 0.3s 1 forwards;
     }
     .sectionDiv img {
