@@ -28,6 +28,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 30px;
+    transition: 1s ease;
 }
 .navDiv ul li a {
     text-decoration: none;
@@ -37,9 +38,11 @@ nav {
 }
 
 #hidden {
-    display: none;
+    opacity: 0%;
     font-size: 26px;
     cursor: pointer;
+    position: absolute;
+    right: 10%;
 }
 /* NAV FIN */
 
@@ -77,6 +80,8 @@ header p {
     flex-direction: column;
     padding-top: 75px;
     padding-bottom: 75px;
+    height: 478px;
+    transition: 1s ease;
 }
 .sectionPortfolio h1 {
     font-size: 38px;
@@ -93,11 +98,13 @@ header p {
     display: flex;
     /* flex-wrap: wrap; */
     gap: 40px;
+    transition: 1s ease;
 }
 .sectionDivBottom {
     display: flex;
     /* flex-wrap: wrap; */
     gap: 40px;
+    transition: 1s ease;
 }
 .sectionDiv img {
     width: 260px;
@@ -207,7 +214,7 @@ footer {
     align-items: flex-start;
     padding-top: 60px;
     padding-bottom: 80px;
-    
+    transition: 1s ease;
 }
 .footerDiv1 div:first-of-type {
     line-height: 25px;
@@ -227,6 +234,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: 1s ease;
 }
 .footerDiv1 div span {
     color: #1DB390;
