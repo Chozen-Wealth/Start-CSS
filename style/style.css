@@ -35,6 +35,12 @@ nav {
     font-weight: 700;
     font-size: 13px;
 }
+
+#hidden {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
 /* NAV FIN */
 
 /* HEADER DEBUT */
@@ -80,17 +86,17 @@ header p {
 .sectionDiv {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 35px;
 }
 .sectionDivTop {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 40px;
 }
 .sectionDivBottom {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 40px;
 }
 .sectionDiv img {
@@ -183,6 +189,7 @@ button {
     width: 80px;
     height: 50px;
     margin-top: 15px;
+    cursor: pointer;
 }
 /* SECTION CONTACT FIN */
 /* MAIN FIN */

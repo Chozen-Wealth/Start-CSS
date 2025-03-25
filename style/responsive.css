@@ -1,0 +1,145 @@
+@media (min-width:600px) and (max-width:1024px) {
+    .navDiv {
+        width: 70%;
+    }
+    .navDiv ul {
+        gap: 20px;
+    }
+    .sectionDiv img {
+        width: 150px;
+    }
+    .sectionDiv {
+        gap: 10px;
+    }
+    .sectionDivTop {
+        gap: 20px;
+    }
+    .sectionDivBottom {
+        gap: 20px;
+    }
+    .sectionAbout > div {
+        width: 60%;
+        line-height: 20px;
+    }
+    form {
+        width: 60%;
+    }
+    .footerDiv1 {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footerDiv1 h3 {
+        font-size: 16px;
+    }
+    .footerDiv1 p {
+        font-size: 14px;
+    }
+    .footerDiv1 div:first-of-type {
+        line-height: 20px;
+        flex-grow: 2;
+        margin-left: 0px;
+    }
+    .footerDiv1 div:nth-of-type(3) {
+        margin-right: 20px;
+        line-height: 20px;
+        width: 25%;
+        flex-grow: 1;
+        flex-wrap: nowrap;
+    }
+    .footerDiv1 > div h3 {
+        text-wrap-mode: nowrap;
+    }
+    .footerDiv1 div:nth-of-type(2) {
+        margin-left: -20px;
+        margin-right: 0px;
+        flex-grow: 1;
+        justify-self: center;
+    }
+    .footerDiv1 > div > div i{
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width:320px) and (max-width:600px) {
+    .navDiv {
+        width: 70%;
+    }
+    .navDiv ul {
+        display: none;
+    }
+    #hidden {
+        display: block;
+    }
+    .sectionDiv img {
+        width: 200px;
+    }
+    .sectionDiv {
+        gap: 10px;
+    }
+    .sectionDivTop {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sectionDivBottom {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sectionAbout > div {
+        width: 80%;
+        line-height: 25px;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .aboutGauche {
+        width: 100%;
+    }
+    .aboutDroite {
+        width: 100%;
+    }
+    form {
+        width: 60%;
+    }
+    button {
+        align-self: center;
+        width: 150px;
+    }
+    .footerDiv1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .footerDiv1 h3 {
+        font-size: 20px;
+        margin-bottom: -10px;
+    }
+    .footerDiv1 p {
+        font-size: 16px;
+    }
+    .footerDiv1 div:first-of-type {
+        line-height: 25px;
+    }
+    .footerDiv1 div:nth-of-type(3) {
+        margin-right: 25px;
+        line-height: 20px;
+    }
+    .footerDiv1 > div h3 {
+        text-wrap-mode: nowrap;
+    }
+    .footerDiv1 div:nth-of-type(2) {
+        margin-left: -20px;
+        margin-right: 0px;
+        flex-grow: 1;
+        justify-self: center;
+    }
+    .footerDiv1 > div > div i{
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+    }
+}
