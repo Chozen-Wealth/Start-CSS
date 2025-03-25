@@ -132,7 +132,59 @@ header p {
 }
 /* SECTION ABOUT FIN */
 
+/* SECTION CONTACT DEBUT */
+.sectionContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+.sectionContact h1 {
+    color: #2C3E50;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    gap: 20px;
+}
+input {
+    border: 0;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.5);
+    height: 80px;
+    font-size: 18px;
+    outline: none;
+}
+input::placeholder {
+    letter-spacing: 1px;
+}
+textarea {
+    border: 0;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.5);
+    height: 160px;
+    font-size: 18px;
+    outline: none;
+    margin-top: 30px;
+}
+textarea::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+button {
+    background-color: #DC3545;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    width: 80px;
+    height: 50px;
+    margin-top: 15px;
+}
 
-
+/* SECTION CONTACT FIN */
 
 /* MAIN FIN */
