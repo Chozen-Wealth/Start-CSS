@@ -1,9 +1,22 @@
+@media (min-width:1024px) {
+    nav i {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
 @media (min-width:600px) and (max-width:1024px) {
     .navDiv {
         width: 70%;
     }
     .navDiv ul {
         gap: 20px;
+    }
+    nav i {
+        visibility: hidden;
+        display: none;
+        animation: Disparition 0.3s ease 0s 1 forwards;
     }
     .sectionPortfolio {
         height: 350px;
@@ -66,10 +79,10 @@
 }
 @keyframes Apparition {
     from {
-        opacity: 0%;
+        display: none;
     }
     to {
-        opacity: 100%;
+        display: block;
     }
 }
 
@@ -95,7 +108,8 @@
     .sectionPortfolio {
         height: 650px;
     }
-    #hidden {
+    nav i {
+        display: block;
         animation: Apparition 0.3s ease 0.3s 1 forwards;
     }
     .sectionDiv img {

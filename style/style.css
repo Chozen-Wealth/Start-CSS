@@ -37,12 +37,28 @@ nav {
     font-size: 13px;
 }
 
-#hidden {
-    opacity: 0%;
+nav i {
     font-size: 26px;
     cursor: pointer;
     position: absolute;
     right: 10%;
+    transition: 0.2s ease;
+    display: block;
+}
+@keyframes Bounce {
+    0% {
+        font-size: 26px;
+    }
+    50% {
+        font-size: 30px;
+    }
+    100% {
+        font-size: 26px;
+    }
+}
+nav i:hover {
+    animation: Bounce 0.3s ease forwards 1;
+    opacity: 100%;
 }
 /* NAV FIN */
 
