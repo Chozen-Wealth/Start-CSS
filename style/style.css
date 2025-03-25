@@ -59,7 +59,7 @@ nav i {
 nav i:hover {
     animation: Bounce 0.3s ease forwards 1;
     opacity: 100%;
-    filter: drop-shadow(0px 0px 10px white);
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
 }
 /* NAV FIN */
 
