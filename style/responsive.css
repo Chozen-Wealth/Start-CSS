@@ -102,7 +102,7 @@
     }
     
 }
-@media (min-width:320px) and (max-width:600px) {
+@media (max-width:600px) {
     .navDiv {
         width: 70%;
     }
@@ -111,13 +111,13 @@
         right: 15%;
         animation: Disparition 0.3s ease 0s 1 forwards;
     }
-    .sectionPortfolio {
-        height: 650px;
-    }
     nav i {
         /* display: block; */
         animation: glow 1s ease 0.4s infinite forwards;
         /* animation: ; */
+    }
+    .sectionPortfolio {
+        height: fit-content;
     }
     .sectionDiv img {
         width: 200px;
