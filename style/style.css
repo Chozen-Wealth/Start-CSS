@@ -42,7 +42,7 @@ nav i {
     cursor: pointer;
     position: absolute;
     right: 10%;
-    transition: 0.2s ease;
+    transition: 0.5s 0.2s ease;
     display: block;
 }
 @keyframes Bounce {
@@ -59,6 +59,7 @@ nav i {
 nav i:hover {
     animation: Bounce 0.3s ease forwards 1;
     opacity: 100%;
+    filter: drop-shadow(0px 0px 10px white);
 }
 /* NAV FIN */
 
