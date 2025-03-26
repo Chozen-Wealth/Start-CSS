@@ -320,10 +320,6 @@ footer {
     animation: Socials 4s ease 4s forwards infinite;
 }
 
-.footerDiv1 i:hover{
-    background-color: white;
-    color: #2C3E50;
-}
 .footerDiv2 {
     background-color: #1A252F;
     color: white;
