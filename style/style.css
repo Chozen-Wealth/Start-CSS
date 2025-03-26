@@ -144,6 +144,47 @@ header p {
     border-radius: 10px;
     transition: 0.3s ease;
 }
+
+@keyframes Grossisseur {
+    0% {
+        transform: scale(100%);
+    }
+    20% {
+        transform: scale(110%);
+    }
+    40% {
+        transform: scale(100%);
+    }
+    60% {
+        transform: scale(100%);
+    }
+    80% {
+        transform: scale(100%);
+    }
+    100% {
+        transform: scale(100%);
+    }
+}
+
+#img1 {
+    animation: Grossisseur 6s ease 1s infinite forwards;
+}
+#img2 {
+    animation: Grossisseur 6s ease 2s infinite forwards;
+}
+#img3 {
+    animation: Grossisseur 6s ease 3s infinite forwards;
+}
+#img4 {
+    animation: Grossisseur 6s ease 4s infinite forwards;
+}
+#img5 {
+    animation: Grossisseur 6s ease 5s infinite forwards;
+}
+#img6 {
+    animation: Grossisseur 6s ease 6s infinite forwards;
+}
+
 .sectionDiv img:hover {
     filter: brightness(0.8);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
