@@ -61,10 +61,21 @@ nav i {
         font-size: 26px;
     }
 }
+@keyframes Bounce {
+    0% {
+        transform: scale(100%);
+    }
+    50% {
+        transform: scale(120%);
+    }
+    100% {
+        transform: scale(100%);
+    }
+}
 nav i:hover {
-    animation: Bounce 0.3s ease forwards 1;
+    animation: Bounce 0.3s ease forwards 1, glow 1s ease 0.4s infinite forwards;
     opacity: 100%;
-    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
+    /* filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5)); */
 }
 /* NAV FIN */
 
@@ -231,6 +242,7 @@ button {
     margin-top: 15px;
     cursor: pointer;
     transition: 0.4s ease;
+    animation: Esquive 2s ease forwards infinite;
 }
 button:hover {
     border: 1px solid #DC3545;
@@ -295,6 +307,19 @@ footer {
     transition: 0.3s ease;
     cursor: pointer;
 }
+.footerDiv1 i:nth-of-type(1) {
+    animation: Socials 4s ease 1s forwards infinite;
+}
+.footerDiv1 i:nth-of-type(2) {
+    animation: Socials 4s ease 2s forwards infinite;
+}
+.footerDiv1 i:nth-of-type(3) {
+    animation: Socials 4s ease 3s forwards infinite;
+}
+.footerDiv1 i:nth-of-type(4) {
+    animation: Socials 4s ease 4s forwards infinite;
+}
+
 .footerDiv1 i:hover{
     background-color: white;
     color: #2C3E50;
